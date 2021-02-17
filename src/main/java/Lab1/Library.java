@@ -7,6 +7,9 @@ public class Library {
 	
 	//step 1.5
 	public static void main(String arg[]) {
+		//step 3.1
+		Library lib = new Library();
+		if(lib.someLibraryMethod())
 		System.out.println("Hello, World!");
 	}
 	
